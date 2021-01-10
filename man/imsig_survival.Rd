@@ -25,7 +25,7 @@ Patients are split into two groups based on their immune cell abundance (median 
 }
 \examples{
 \donttest{
-survival = imsig_survival (exp = example_data)
+survival = imsig_survival (exp = example_data, cli = example_cli)
 head(survival)
 }
 }
